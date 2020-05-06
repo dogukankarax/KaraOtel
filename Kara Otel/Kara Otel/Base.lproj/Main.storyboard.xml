@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kara_Otel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arkaplan" translatesAutoresizingMaskIntoConstraints="NO" id="dJh-Fz-rOA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOŞGELDİNİZ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QE-i3-Tea">
+                                <rect key="frame" x="55" y="218" width="304" height="51"/>
+                                <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="40"/>
+                                <color key="textColor" red="0.74486702680000005" green="0.55481654410000003" blue="0.27200561760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRI-4t-81l">
+                                <rect key="frame" x="55" y="535" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.73309797050000003" green="0.54322481160000002" blue="0.26814353470000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="j6E-qf-Rkh"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="İletişim"/>
+                                <connections>
+                                    <segue destination="J7d-gq-zyw" kind="show" id="knq-bO-pbk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJ9-Za-5I7">
+                                <rect key="frame" x="57" y="423" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.73309797050000003" green="0.54322481160000002" blue="0.26814353470000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="p29-KQ-JVT"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Rezervasyon"/>
+                                <connections>
+                                    <action selector="btnRez:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DiW-gl-G50"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10194943099999999" green="0.1019671783" blue="0.1019433662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dJh-Fz-rOA" firstAttribute="centerX" secondItem="PJ9-Za-5I7" secondAttribute="centerX" id="0LR-3W-fWi"/>
+                            <constraint firstItem="PJ9-Za-5I7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="2mr-k1-opf"/>
+                            <constraint firstItem="0QE-i3-Tea" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="174" id="6Oh-up-yig"/>
+                            <constraint firstItem="DRI-4t-81l" firstAttribute="top" secondItem="PJ9-Za-5I7" secondAttribute="bottom" constant="62" id="6mv-Af-wVw"/>
+                            <constraint firstItem="dJh-Fz-rOA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Hmf-jD-xkD"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="dJh-Fz-rOA" secondAttribute="bottom" constant="-34" id="IOR-aV-pAp"/>
+                            <constraint firstItem="PJ9-Za-5I7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TRp-za-G5s"/>
+                            <constraint firstItem="dJh-Fz-rOA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bf6-rq-9xb"/>
+                            <constraint firstItem="dJh-Fz-rOA" firstAttribute="centerX" secondItem="0QE-i3-Tea" secondAttribute="centerX" id="gt5-2g-OIB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DRI-4t-81l" secondAttribute="trailing" constant="59" id="lAS-6P-Dwh"/>
+                            <constraint firstItem="dJh-Fz-rOA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mQt-bG-fHJ"/>
+                            <constraint firstItem="0QE-i3-Tea" firstAttribute="leading" secondItem="DRI-4t-81l" secondAttribute="leading" id="sXL-zu-FqD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="120.53571428571428"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="YbP-ff-XzE">
+            <objects>
+                <viewController storyboardIdentifier="ViewController3" id="J7d-gq-zyw" customClass="ViewController3" customModule="Kara_Otel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ldX-za-DIp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ana menüye dönmek için aşağı kaydırın" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9UM-Uy-SWe">
+                                <rect key="frame" x="57" y="661" width="300" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.74486702680000005" green="0.55481654410000003" blue="0.27200561760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcW-Ze-foo">
+                                <rect key="frame" x="32" y="329" width="350" height="184"/>
+                                <string key="text">Adres: İstanbul kadıköy
+Telefon: 0216 216 21 62
+Mail: karaotel@mail.com</string>
+                                <color key="textColor" red="0.74486702680000005" green="0.55481654410000003" blue="0.27200561760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10194943099999999" green="0.1019671783" blue="0.1019433662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vQ6-ab-eSK" firstAttribute="bottom" secondItem="9UM-Uy-SWe" secondAttribute="bottom" constant="126" id="6Rx-u3-ln5"/>
+                            <constraint firstItem="FcW-Ze-foo" firstAttribute="centerY" secondItem="ldX-za-DIp" secondAttribute="centerY" id="Q3K-3n-yYp"/>
+                            <constraint firstItem="FcW-Ze-foo" firstAttribute="centerX" secondItem="ldX-za-DIp" secondAttribute="centerX" id="TDC-yt-3Ot"/>
+                            <constraint firstItem="FcW-Ze-foo" firstAttribute="leading" secondItem="vQ6-ab-eSK" secondAttribute="leading" constant="32" id="Y7Q-uM-JaY"/>
+                            <constraint firstItem="FcW-Ze-foo" firstAttribute="top" secondItem="vQ6-ab-eSK" secondAttribute="top" constant="329" id="YKn-QI-fgr"/>
+                            <constraint firstItem="FcW-Ze-foo" firstAttribute="centerX" secondItem="9UM-Uy-SWe" secondAttribute="centerX" id="xjJ-Vd-8Dg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vQ6-ab-eSK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hrn-2H-TLA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Rg-SU-oCT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="121"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="ALV-Vd-2gC">
+            <objects>
+                <viewController storyboardIdentifier="ViewController2" id="BAv-f8-azj" customClass="ViewController2" customModule="Kara_Otel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R6k-Nx-ZvW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ana menüye dönmek için aşağı kaydırın" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGM-aS-hkR">
+                                <rect key="frame" x="57" y="715" width="300" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.74486702680000005" green="0.55481654410000003" blue="0.27200561760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzC-am-Dws">
+                                <rect key="frame" x="57" y="348" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="WkG-ds-HUd"/>
+                                </constraints>
+                                <string key="text">Otel bilgi işlemleri ile ilgili telefon numaramız: 
+0216 216 21 62 </string>
+                                <color key="textColor" red="0.74486702680000005" green="0.55481654410000003" blue="0.27200561760000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10194943099999999" green="0.1019671783" blue="0.1019433662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gzC-am-Dws" firstAttribute="trailing" secondItem="rGM-aS-hkR" secondAttribute="trailing" id="474-H0-oJ3"/>
+                            <constraint firstItem="gzC-am-Dws" firstAttribute="leading" secondItem="rGM-aS-hkR" secondAttribute="leading" id="FHw-Up-HhO"/>
+                            <constraint firstItem="gzC-am-Dws" firstAttribute="centerX" secondItem="R6k-Nx-ZvW" secondAttribute="centerX" id="ObI-Zv-WLl"/>
+                            <constraint firstItem="gzC-am-Dws" firstAttribute="top" secondItem="U5V-iJ-7vZ" secondAttribute="top" constant="304" id="TGf-iC-EIM"/>
+                            <constraint firstItem="U5V-iJ-7vZ" firstAttribute="bottom" secondItem="rGM-aS-hkR" secondAttribute="bottom" constant="126" id="aKu-dv-Awu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="U5V-iJ-7vZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DMh-4L-n3p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k6p-5F-lht" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="961" y="121"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arkaplan" width="1125" height="2436"/>
+    </resources>
+</document>

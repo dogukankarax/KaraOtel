@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D055B4D42463054F00F0FBFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055B4D32463054F00F0FBFB /* ViewController.swift */; };
+		D055B4D6246307A800F0FBFB /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055B4D5246307A800F0FBFB /* ViewController3.swift */; };
+		D090C92C2462E6EB00E6A36A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090C92B2462E6EB00E6A36A /* AppDelegate.swift */; };
+		D090C92E2462E6EB00E6A36A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090C92D2462E6EB00E6A36A /* SceneDelegate.swift */; };
+		D090C9332462E6EB00E6A36A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D090C9312462E6EB00E6A36A /* Main.storyboard */; };
+		D090C9352462E6ED00E6A36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D090C9342462E6ED00E6A36A /* Assets.xcassets */; };
+		D090C9382462E6ED00E6A36A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D090C9362462E6ED00E6A36A /* LaunchScreen.storyboard */; };
+		D090C9432462E6ED00E6A36A /* Kara_OtelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090C9422462E6ED00E6A36A /* Kara_OtelTests.swift */; };
+		D090C94E2462E6ED00E6A36A /* Kara_OtelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090C94D2462E6ED00E6A36A /* Kara_OtelUITests.swift */; };
+		D090C9622462ECEE00E6A36A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090C9612462ECEE00E6A36A /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D090C93F2462E6ED00E6A36A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D090C9202462E6EB00E6A36A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D090C9272462E6EB00E6A36A;
+			remoteInfo = "Kara Otel";
+		};
+		D090C94A2462E6ED00E6A36A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D090C9202462E6EB00E6A36A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D090C9272462E6EB00E6A36A;
+			remoteInfo = "Kara Otel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D055B4D32463054F00F0FBFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D055B4D5246307A800F0FBFB /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		D090C9282462E6EB00E6A36A /* Kara Otel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kara Otel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D090C92B2462E6EB00E6A36A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D090C92D2462E6EB00E6A36A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D090C9322462E6EB00E6A36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D090C9342462E6ED00E6A36A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D090C9372462E6ED00E6A36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D090C9392462E6ED00E6A36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D090C93E2462E6ED00E6A36A /* Kara OtelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kara OtelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D090C9422462E6ED00E6A36A /* Kara_OtelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kara_OtelTests.swift; sourceTree = "<group>"; };
+		D090C9442462E6ED00E6A36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D090C9492462E6ED00E6A36A /* Kara OtelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kara OtelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D090C94D2462E6ED00E6A36A /* Kara_OtelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kara_OtelUITests.swift; sourceTree = "<group>"; };
+		D090C94F2462E6ED00E6A36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D090C9612462ECEE00E6A36A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D090C9252462E6EB00E6A36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C93B2462E6ED00E6A36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C9462462E6ED00E6A36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D090C91F2462E6EB00E6A36A = {
+			isa = PBXGroup;
+			children = (
+				D090C92A2462E6EB00E6A36A /* Kara Otel */,
+				D090C9412462E6ED00E6A36A /* Kara OtelTests */,
+				D090C94C2462E6ED00E6A36A /* Kara OtelUITests */,
+				D090C9292462E6EB00E6A36A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D090C9292462E6EB00E6A36A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D090C9282462E6EB00E6A36A /* Kara Otel.app */,
+				D090C93E2462E6ED00E6A36A /* Kara OtelTests.xctest */,
+				D090C9492462E6ED00E6A36A /* Kara OtelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D090C92A2462E6EB00E6A36A /* Kara Otel */ = {
+			isa = PBXGroup;
+			children = (
+				D090C92B2462E6EB00E6A36A /* AppDelegate.swift */,
+				D090C92D2462E6EB00E6A36A /* SceneDelegate.swift */,
+				D090C9312462E6EB00E6A36A /* Main.storyboard */,
+				D090C9342462E6ED00E6A36A /* Assets.xcassets */,
+				D090C9362462E6ED00E6A36A /* LaunchScreen.storyboard */,
+				D090C9392462E6ED00E6A36A /* Info.plist */,
+				D090C9612462ECEE00E6A36A /* ViewController2.swift */,
+				D055B4D32463054F00F0FBFB /* ViewController.swift */,
+				D055B4D5246307A800F0FBFB /* ViewController3.swift */,
+			);
+			path = "Kara Otel";
+			sourceTree = "<group>";
+		};
+		D090C9412462E6ED00E6A36A /* Kara OtelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D090C9422462E6ED00E6A36A /* Kara_OtelTests.swift */,
+				D090C9442462E6ED00E6A36A /* Info.plist */,
+			);
+			path = "Kara OtelTests";
+			sourceTree = "<group>";
+		};
+		D090C94C2462E6ED00E6A36A /* Kara OtelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D090C94D2462E6ED00E6A36A /* Kara_OtelUITests.swift */,
+				D090C94F2462E6ED00E6A36A /* Info.plist */,
+			);
+			path = "Kara OtelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D090C9272462E6EB00E6A36A /* Kara Otel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D090C9522462E6ED00E6A36A /* Build configuration list for PBXNativeTarget "Kara Otel" */;
+			buildPhases = (
+				D090C9242462E6EB00E6A36A /* Sources */,
+				D090C9252462E6EB00E6A36A /* Frameworks */,
+				D090C9262462E6EB00E6A36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kara Otel";
+			productName = "Kara Otel";
+			productReference = D090C9282462E6EB00E6A36A /* Kara Otel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D090C93D2462E6ED00E6A36A /* Kara OtelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D090C9552462E6ED00E6A36A /* Build configuration list for PBXNativeTarget "Kara OtelTests" */;
+			buildPhases = (
+				D090C93A2462E6ED00E6A36A /* Sources */,
+				D090C93B2462E6ED00E6A36A /* Frameworks */,
+				D090C93C2462E6ED00E6A36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D090C9402462E6ED00E6A36A /* PBXTargetDependency */,
+			);
+			name = "Kara OtelTests";
+			productName = "Kara OtelTests";
+			productReference = D090C93E2462E6ED00E6A36A /* Kara OtelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D090C9482462E6ED00E6A36A /* Kara OtelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D090C9582462E6ED00E6A36A /* Build configuration list for PBXNativeTarget "Kara OtelUITests" */;
+			buildPhases = (
+				D090C9452462E6ED00E6A36A /* Sources */,
+				D090C9462462E6ED00E6A36A /* Frameworks */,
+				D090C9472462E6ED00E6A36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D090C94B2462E6ED00E6A36A /* PBXTargetDependency */,
+			);
+			name = "Kara OtelUITests";
+			productName = "Kara OtelUITests";
+			productReference = D090C9492462E6ED00E6A36A /* Kara OtelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D090C9202462E6EB00E6A36A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = KARA;
+				TargetAttributes = {
+					D090C9272462E6EB00E6A36A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					D090C93D2462E6ED00E6A36A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D090C9272462E6EB00E6A36A;
+					};
+					D090C9482462E6ED00E6A36A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D090C9272462E6EB00E6A36A;
+					};
+				};
+			};
+			buildConfigurationList = D090C9232462E6EB00E6A36A /* Build configuration list for PBXProject "Kara Otel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D090C91F2462E6EB00E6A36A;
+			productRefGroup = D090C9292462E6EB00E6A36A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D090C9272462E6EB00E6A36A /* Kara Otel */,
+				D090C93D2462E6ED00E6A36A /* Kara OtelTests */,
+				D090C9482462E6ED00E6A36A /* Kara OtelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D090C9262462E6EB00E6A36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D090C9382462E6ED00E6A36A /* LaunchScreen.storyboard in Resources */,
+				D090C9352462E6ED00E6A36A /* Assets.xcassets in Resources */,
+				D090C9332462E6EB00E6A36A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C93C2462E6ED00E6A36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C9472462E6ED00E6A36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D090C9242462E6EB00E6A36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D055B4D6246307A800F0FBFB /* ViewController3.swift in Sources */,
+				D090C9622462ECEE00E6A36A /* ViewController2.swift in Sources */,
+				D090C92C2462E6EB00E6A36A /* AppDelegate.swift in Sources */,
+				D055B4D42463054F00F0FBFB /* ViewController.swift in Sources */,
+				D090C92E2462E6EB00E6A36A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C93A2462E6ED00E6A36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D090C9432462E6ED00E6A36A /* Kara_OtelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C9452462E6ED00E6A36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D090C94E2462E6ED00E6A36A /* Kara_OtelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D090C9402462E6ED00E6A36A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D090C9272462E6EB00E6A36A /* Kara Otel */;
+			targetProxy = D090C93F2462E6ED00E6A36A /* PBXContainerItemProxy */;
+		};
+		D090C94B2462E6ED00E6A36A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D090C9272462E6EB00E6A36A /* Kara Otel */;
+			targetProxy = D090C94A2462E6ED00E6A36A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D090C9312462E6EB00E6A36A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D090C9322462E6EB00E6A36A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D090C9362462E6ED00E6A36A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D090C9372462E6ED00E6A36A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D090C9502462E6ED00E6A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D090C9512462E6ED00E6A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D090C9532462E6ED00E6A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8668FPMQN;
+				INFOPLIST_FILE = "Kara Otel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KARA.Kara-Otel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D090C9542462E6ED00E6A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8668FPMQN;
+				INFOPLIST_FILE = "Kara Otel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KARA.Kara-Otel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D090C9562462E6ED00E6A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8668FPMQN;
+				INFOPLIST_FILE = "Kara OtelTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KARA.Kara-OtelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kara Otel.app/Kara Otel";
+			};
+			name = Debug;
+		};
+		D090C9572462E6ED00E6A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8668FPMQN;
+				INFOPLIST_FILE = "Kara OtelTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KARA.Kara-OtelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kara Otel.app/Kara Otel";
+			};
+			name = Release;
+		};
+		D090C9592462E6ED00E6A36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8668FPMQN;
+				INFOPLIST_FILE = "Kara OtelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KARA.Kara-OtelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kara Otel";
+			};
+			name = Debug;
+		};
+		D090C95A2462E6ED00E6A36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8668FPMQN;
+				INFOPLIST_FILE = "Kara OtelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KARA.Kara-OtelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kara Otel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D090C9232462E6EB00E6A36A /* Build configuration list for PBXProject "Kara Otel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D090C9502462E6ED00E6A36A /* Debug */,
+				D090C9512462E6ED00E6A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D090C9522462E6ED00E6A36A /* Build configuration list for PBXNativeTarget "Kara Otel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D090C9532462E6ED00E6A36A /* Debug */,
+				D090C9542462E6ED00E6A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D090C9552462E6ED00E6A36A /* Build configuration list for PBXNativeTarget "Kara OtelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D090C9562462E6ED00E6A36A /* Debug */,
+				D090C9572462E6ED00E6A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D090C9582462E6ED00E6A36A /* Build configuration list for PBXNativeTarget "Kara OtelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D090C9592462E6ED00E6A36A /* Debug */,
+				D090C95A2462E6ED00E6A36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D090C9202462E6EB00E6A36A /* Project object */;
+}
